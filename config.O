@@ -1,0 +1,16 @@
+# Set the modifier key to the Super/Windows key
+set $mod Mod4
+
+# Define terminal emulator
+bindsym $mod+Return exec termite
+
+# Define key bindings
+bindsym $mod+d exec dmenu_run
+bindsym $mod+Shift+q kill
+
+# Layout
+bindsym $mod+h split h
+bindsym $mod+v split v
+
+# Reload configuration
+bindsym $mod+Shift+r reload
