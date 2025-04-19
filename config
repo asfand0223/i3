@@ -156,3 +156,6 @@ bar {
 # Nitrogen
 exec --no-startup-id nitrogen --restore
 exec --no-startup-id picom
+
+# Switch Caps Lock and Escape
+exec --no-startup-id setxkbmap -option caps:swapescape
